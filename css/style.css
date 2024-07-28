@@ -1,0 +1,103 @@
+/* ================== font link part start ================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ================== font link part end ================== */
+
+/* ================== common css part start ================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(25deg, rgba(114, 111, 250, 1) 23%, rgba(208, 101, 228, 1) 43%, rgba(252, 86, 126, 1) 66%);
+}
+
+/* ================== common css part end ================== */
+
+/* ================== generate password css part start ================== */
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Noto Sans", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+.generate_area {
+    position: relative;
+    display: flex;
+}
+
+/* -- place for the password -- */
+.passwordGenerate, .emailGenerate {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    padding-left: 20px;
+}
+
+/* -- for button -- */
+button {
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #acaaf8;
+    box-shadow: inset 5px 5px 15px #9da9f3;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    transition: all linear 0.2s;
+}
+
+button i {
+    transform: translate(-10px);
+}
+
+/* -- for save button -- */
+.save {
+    width: 40px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #aeacff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -20px;
+    transition: all linear 0.2s;
+}
+
+/* -- for save button tooltips */
+.tooltips{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: none;
+}
+
+/* ================== generate password css part end ================== */
