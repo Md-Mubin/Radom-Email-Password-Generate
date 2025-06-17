@@ -38,13 +38,13 @@ generateEmailbtn.addEventListener("click", ()=>{
 })
 
 // generate email button hover event
-generateEmailbtn.addEventListener("mouseover", ()=>{
+generateEmailbtn.addEventListener("mouseover", ()=>{ // mouse in
     generateEmailbtn      .style = "background-color: #8785d6; cursor: pointer; color : #fff"
     tooltips              .innerHTML = "Generate"
     tooltips              .style = "display: block; display: flex; width: 80px; transform: translate(200px, -48px)"
 })
 
-generateEmailbtn.addEventListener("mouseout", ()=>{
+generateEmailbtn.addEventListener("mouseout", ()=>{ // mouse out
     generateEmailbtn      .style = "background-color: #aeacff"
     tooltips              .innerHTML = ""
     tooltips              .style = "display: none"
